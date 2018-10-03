@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 "osol.extremum" = "*"
+numpy = "*"
+scipy = "*"
+sympy = "*"
+matplotlib = "*"
+bokeh = "*"
 
 [dev-packages]
 
