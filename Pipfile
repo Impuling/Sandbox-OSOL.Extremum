@@ -12,6 +12,10 @@ matplotlib = "*"
 bokeh = "*"
 
 [dev-packages]
+jupyter = "*"
 
 [requires]
 python_version = "3.6"
+
+[scripts]
+optimize = "python ./Scripts/alg_work.py"
