@@ -14,7 +14,7 @@ def main():
 	task = create_task_from_json(json.load(open(path_to_task, 'r')))
 	path_to_algorithm = './Config/config_alg.json'
 	algorithm = create_algorithm_from_json(json.load(open(path_to_algorithm, 'r')))
-	terminator = MaxTimeTerminator('s:100')
+	terminator = MaxTimeTerminator('s:150')
 
 	print('Processing')
 
