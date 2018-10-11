@@ -1,0 +1,11 @@
+{
+    "DolphinSwarm":{
+        "number_of_dolphins": 20,
+        "speed": 1, 
+        "search_time": 12,
+        "number_of_directions": 4,
+        "acceleration": 10,
+        "maximum_transmission_time": 100,
+        "radius_reduction_coefficient": 4
+    }
+}
