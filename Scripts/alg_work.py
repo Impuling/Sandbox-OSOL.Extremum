@@ -1,3 +1,4 @@
+import numpy
 from OSOL.Extremum.Tools.OptimizationTools import create_algorithm_from_json
 from OSOL.Extremum.Applications.tools import create_task_from_json
 from OSOL.Extremum.Tools.Encoders import CustomEncoder as encoder 
